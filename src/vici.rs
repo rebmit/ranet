@@ -230,7 +230,7 @@ impl Connection {
             local_port: local.port,
             remote_port: remote.port,
             encap: true,
-            mobike: false,
+            mobike: true,
             dpd_delay: 10,
             keyingtries: 0,
             unique: "replace",
